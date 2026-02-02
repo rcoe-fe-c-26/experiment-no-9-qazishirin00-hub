@@ -4,10 +4,7 @@
 # Date: 31-01-2026 
 
 print("--- Factorial Finder ---\n")
-
-n = int(input("enter a number: "))
+n = int(input())
 
 for a in range(1, n + 1):
-    i = a * a
-    print(i)
-
+    print(a * a)
