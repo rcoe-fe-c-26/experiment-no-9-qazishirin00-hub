@@ -7,4 +7,5 @@ print("--- Factorial Finder ---\n")
 n = int(input())
 
 for a in range(1, n + 1):
-    print(a * a)
+    print(a * a, end=" ")
+
